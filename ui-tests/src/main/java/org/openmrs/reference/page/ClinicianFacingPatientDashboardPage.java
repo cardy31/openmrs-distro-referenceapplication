@@ -91,9 +91,7 @@ public class ClinicianFacingPatientDashboardPage extends Page {
 		clickOn(YES);
 	}
 
-	public void clickOnYes (){
-		clickOn(YES);
-	}
+	public void clickOnYes (){clickOn(YES);}
 
 	public void clickOnSave(){
 		clickOn(SAVE);
